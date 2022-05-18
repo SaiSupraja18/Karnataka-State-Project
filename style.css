@@ -1,0 +1,85 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.9em;
+    color: chartreuse;
+}  
+
+
+.pimg1, .pimg2, .pimg3{
+ position: relative;
+ opacity: 0.80;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+
+.pimg1{
+    background-image: url('./KA.png');
+    min-height: 100%;
+}
+
+
+.pimg2{
+    background-image: url('./KA2.png');
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image: url('./KA3.png');
+    min-height: 100%;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px ;
+
+}
+
+
+.tag{
+    background-color: #f4f4f4;
+    color: #666;
+    
+}
+
+.tag1{
+ background-color: #f4f4f4;
+ color: #666;
+}
+
+
+.ptext{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.ptext .boader{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.ptext .boader.trans{
+    background-color:transparent;
+
+}
+
+
+@media(max-width:500px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment:scroll;
+    }
+}
